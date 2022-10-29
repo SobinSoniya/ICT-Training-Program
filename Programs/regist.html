@@ -1,0 +1,46 @@
+<html>
+<head>
+<script>
+function validate()
+{
+var name=document.getElementById("demo").value;
+if(name=="")
+{
+window.alert("Please Enter the name");
+}
+else
+{
+window.alert("The name is" + name);
+}
+var email=document.getElementById("demo1").value;
+if(email=="")
+{
+window.alert("Please Enter the email");
+}
+else
+{
+window.alert("The name is" + email);
+}}
+</script>
+</head>
+<body>
+<form name="registration">
+<table border="1">
+<tr>
+<td colspan="2"> Student Registration Form </td>
+</tr>
+<tr>
+<td> Name </td>
+<td> <input type="text" name="student" id="demo" /> </td>
+</tr>
+<tr>
+<td> email </td>
+<td> <input type="text" name="email" id="demo1" /> </td>
+</tr>
+<tr>
+<td colspan="2"> <input type="button" value="Register" onclick="validate()" /> </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

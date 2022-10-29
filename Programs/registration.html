@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<script>
+function check()
+{
+var name = document.getElementById("stud_name").value;
+if(name=="")
+{
+window.alert("Please Enter a Name");
+}
+else
+{
+window.alert("Welcome to" + name);
+}}
+</script>
+</head>
+<body>
+<form name="registration" action="" method="">
+<table border="1">
+<tr>
+<td colspan="2"> Student Details</td>
+</tr>
+<tr>
+<td> Name</td>
+<td> <input type="text" name="student" id="stud_name" /> </td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="button" value="submit" onclick="check()" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

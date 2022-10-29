@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<script>
+function sqrt()
+{
+var value = document.getElementById("number").value;
+if(value=="")
+{
+window.alert("Please Enter the number");
+}
+else
+{
+window.alert("The square root is" + Math.sqrt(value));
+}}
+</script>
+</head>
+<body>
+<form name="registration" action="" method="">
+<table border="1">
+<tr>
+<td colspan="2"> Square Root of the Table</td>
+</tr>
+<tr>
+<td> Number </td>
+<td> <input type="text" name="numbers" id="number" /> </td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="button" value="Find square root" onclick="sqrt()" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
